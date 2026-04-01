@@ -1,9 +1,17 @@
-# Kunhai Blog
+# Kunhai 的Blog
+-------------------
 
-> 我的个人博客
+**平常一些分享出去的资料，就统一放这吧，有需要自取，永久无偿使用，不卖扯淡的课，不搞什么大厂离职博主赛道，不靠这玩意儿变现（倒希望日后有需要时能帮忙做下用户调研/反馈）**
 
-Welcome to my blog! This site is powered by [Docsify](https://docsify.js.org/) and hosted on [GitHub Pages](https://pages.github.com/).
+-------------------
 
-## Getting Started
+**所有内容基本都是由ai编写，不过基本都是按我自己意思来的。** 
 
-Edit this file (`README.md`) to change the homepage content, or create new `.md` files and add them to `_sidebar.md`.
+**主要分享2类内容：** 
+
+**1. 本人创业过程中学到的、正在学、用到的、正在用的知识**
+
+**2. 基于 1 的知识，本人做出来的一些可以分享给大家的东西**
+
+ 
+

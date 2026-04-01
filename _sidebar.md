@@ -1,5 +1,10 @@
 - [Home](/)
 - [小红书调研工具](xhs-research/)
-  - [skill](xhs-research/skills/README.md)
-  -  test
-- [About](about.md)
+  - [skill](xhs-research/skills/)
+- [claude-code](claude-code/)
+  - [整体架构](claude-code/arch/code-analysis-report.md)
+  - [系统提示词](claude-code/systemPrompt/README.md)
+    - [claude code 系统提示词](claude-code/systemPrompt/system-prompt-report.md)
+    - [与openclaw 系统提示词对比](claude-code/systemPrompt/system-prompt-comparison-report.md)
+- [自动搭建博客文章](auto-setup-website-blog/)
+  - [skill](auto-setup-website-blog/skills/)
