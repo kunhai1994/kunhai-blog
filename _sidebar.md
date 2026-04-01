@@ -1,2 +1,5 @@
 - [Home](/)
+- [小红书调研工具](xhs-research/)
+  - [skill](xhs-research/skills/README.md)
+  -  test
 - [About](about.md)
