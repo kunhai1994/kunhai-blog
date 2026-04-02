@@ -1,7 +1,7 @@
 - [Home](/)
 - [小红书调研工具](xhs-research/)
   - [skill](xhs-research/skills/)
-- [claude-code](claude-code/)
+- [泄漏的claude-code源码分析](claude-code/)
   - [整体架构](claude-code/arch/code-analysis-report.md)
   - [系统提示词](claude-code/systemPrompt/README.md)
     - [claude code 系统提示词](claude-code/systemPrompt/system-prompt-report.md)
