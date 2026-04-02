@@ -7,6 +7,8 @@
   - [关键技术点]
     - [自主工作模式/KAIROS]
     - [工作流程]
+    - [记忆机制]
+    - [上下文压缩机制]
     - [hook机制]
     - [封号机制]
   
@@ -20,3 +22,5 @@
   - [skill](auto-setup-website-blog/skills/)
 - [openclaw源码分析](openclaw/)
   - [系统提示词](openclaw/systemPrompt/openclaw-system-prompt-report.md) 
+  - [系统提示词设计思想](openclaw/systemPrompt/openclaw-design-philosophy.md)
+  
