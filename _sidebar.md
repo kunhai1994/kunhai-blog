@@ -8,3 +8,5 @@
     - [与openclaw 系统提示词对比](claude-code/systemPrompt/system-prompt-comparison-report.md)
 - [自动搭建博客文章](auto-setup-website-blog/)
   - [skill](auto-setup-website-blog/skills/)
+- [openclaw源码分析](openclaw/)
+  - [系统提示词](openclaw/systemPrompt/openclaw-system-prompt-report.md) 

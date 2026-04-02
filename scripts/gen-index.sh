@@ -102,9 +102,42 @@ if [ "${1:-}" = "--all" ]; then
     exit 0
 fi
 
+show_help() {
+    cat <<'HELP'
+gen-index.sh — 递归扫描目录，为每个子目录生成 Docsify 兼容的 README.md 索引
+
+用法:
+  ./scripts/gen-index.sh <目录名> [标题]    递归扫描指定目录及所有子目录
+  ./scripts/gen-index.sh --all              递归扫描博客根目录下所有子目录
+  ./scripts/gen-index.sh --help             显示本帮助信息
+
+参数:
+  <目录名>    相对于博客根目录的路径，如 xhs-research、claude-code
+  [标题]      可选，自定义根目录 README.md 的标题，默认使用目录名
+
+示例:
+  ./scripts/gen-index.sh xhs-research                    # 使用目录名作为标题
+  ./scripts/gen-index.sh xhs-research "小红书调研工具"      # 自定义标题
+  ./scripts/gen-index.sh claude-code/systemPrompt         # 只处理某个子目录
+  ./scripts/gen-index.sh --all                            # 处理所有目录
+
+生成规则:
+  - 子目录 → 列在「目录」分类下，生成可点击链接
+  - .md 文件（排除 README/_sidebar/_coverpage）→ 列在「文章」分类下
+  - 自动跳过: .开头的目录、scripts、.git、node_modules
+
+注意:
+  - 会覆盖目标目录下的 README.md，请勿手动编辑被管理的 README.md
+HELP
+}
+
+if [ "${1:-}" = "--help" ] || [ "${1:-}" = "-h" ]; then
+    show_help
+    exit 0
+fi
+
 if [ -z "${1:-}" ]; then
-    echo "用法: $0 <目录名> [标题]"
-    echo "       $0 --all"
+    show_help
     exit 1
 fi
 
