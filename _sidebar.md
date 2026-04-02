@@ -2,10 +2,20 @@
 - [小红书调研工具](xhs-research/)
   - [skill](xhs-research/skills/)
 - [泄漏的claude-code源码分析](claude-code/)
+  - [关键信息](claude-code/key-info.md)
   - [整体架构](claude-code/arch/code-analysis-report.md)
+  - [关键技术点]
+    - [自主工作模式/KAIROS]
+    - [工作流程]
+    - [hook机制]
+    - [封号机制]
+  
   - [系统提示词](claude-code/systemPrompt/README.md)
     - [claude code 系统提示词](claude-code/systemPrompt/system-prompt-report.md)
+    - [claude code系统提示词设计思想](claude-code/systemPrompt/system-prompt-design-philosophy.md)
     - [与openclaw 系统提示词对比](claude-code/systemPrompt/system-prompt-comparison-report.md)
+    - [关键点分析]
+      - [与用户的交互]
 - [自动搭建博客文章](auto-setup-website-blog/)
   - [skill](auto-setup-website-blog/skills/)
 - [openclaw源码分析](openclaw/)
