@@ -11,6 +11,8 @@
     - [上下文压缩机制]
     - [hook机制]
     - [封号机制]
+  - [思考总结](claude-code/summary/)
+    - [有了claude code源码，还需要langGraph吗](claude-code/summary/有了ClaudeCode源码还需要LangGraph吗.md)
   
   - [系统提示词](claude-code/systemPrompt/README.md)
     - [claude code 系统提示词](claude-code/systemPrompt/system-prompt-report.md)
