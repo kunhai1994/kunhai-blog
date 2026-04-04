@@ -4,11 +4,11 @@
 - [泄漏的claude-code源码分析](claude-code/)
   - [关键信息](claude-code/key-info.md)
   - [整体架构](claude-code/arch/code-analysis-report.md)
-  - [关键技术点]
+  - [关键技术点](claude-code/key-tech/)
     - [自主工作模式/KAIROS]
     - [工作流程]
     - [记忆机制]
-    - [上下文压缩机制]
+    - [上下文压缩机制(三级消息压缩)](claude-code/key-tech/claude-code-three-level-compression.md)
     - [hook机制]
     - [封号机制]
   - [思考总结](claude-code/summary/)
