@@ -5,12 +5,14 @@
   - [关键信息](claude-code/key-info.md)
   - [整体架构](claude-code/arch/code-analysis-report.md)
   - [关键技术点](claude-code/key-tech/)
+    - [QueryEngine 核心循环](claude-code/key-tech/)
     - [自主工作模式/KAIROS]
     - [工作流程]
     - [记忆机制]
     - [上下文压缩机制(三级消息压缩)](claude-code/key-tech/claude-code-three-level-compression.md)
     - [hook机制]
     - [封号机制]
+    - [如何建立对项目的认知](claude-code/key-tech/claude-code-project-cognition-report.md)
   - [思考总结](claude-code/summary/)
     - [有了claude code源码，还需要langGraph吗](claude-code/summary/有了ClaudeCode源码还需要LangGraph吗.md)
   
