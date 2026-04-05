@@ -8,7 +8,7 @@
     - [QueryEngine 核心循环](claude-code/key-tech/)
     - [自主工作模式/KAIROS]
     - [工作流程]
-    - [记忆机制]
+    - [记忆机制](claude-code/key-tech/claude-code-memory-system-report.md)
     - [上下文压缩机制(三级消息压缩)](claude-code/key-tech/claude-code-three-level-compression.md)
     - [hook机制]
     - [封号机制]
