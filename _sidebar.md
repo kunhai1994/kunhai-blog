@@ -12,6 +12,7 @@
     - [上下文压缩机制(三级消息压缩)](claude-code/key-tech/claude-code-three-level-compression.md)
     - [hook机制]
     - [封号机制]
+    - [对输入图片的处理](claude-code/key-tech/claude-code-image-handling-pipeline.md) 
     - [如何建立对项目的认知](claude-code/key-tech/claude-code-project-cognition-report.md)
   - [思考总结](claude-code/summary/)
     - [有了claude code源码，还需要langGraph吗](claude-code/summary/有了ClaudeCode源码还需要LangGraph吗.md)
